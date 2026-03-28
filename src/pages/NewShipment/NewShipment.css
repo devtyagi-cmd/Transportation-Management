@@ -1,0 +1,14 @@
+/* ===== NEW SHIPMENT PAGE ===== */
+
+@import '../../shared/styles/utilities.css';
+
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: var(--spacing-xl);
+  overflow-y: auto;
+}

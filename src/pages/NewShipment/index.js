@@ -1,0 +1,1 @@
+export { default } from './NewShipment.jsx';

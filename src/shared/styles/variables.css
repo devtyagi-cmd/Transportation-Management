@@ -1,0 +1,72 @@
+/* ===== SHARED VARIABLES ===== */
+
+:root {
+  /* Colors */
+  --color-primary: #6c63ff;
+  --color-primary-dark: #5148e0;
+  --color-secondary: #2563eb;
+  --color-success: #22c55e;
+  --color-success-dark: #16a34a;
+  --color-warning: #f7971e;
+  --color-warning-light: #ffd200;
+  --color-danger: #ef4444;
+  --color-info: #36d1dc;
+  --color-info-dark: #5b86e5;
+  --color-text: #222;
+  --color-text-secondary: #666;
+  --color-text-light: #777;
+  --color-bg: #f3f5fb;
+  --color-white: #ffffff;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #6c63ff, #5148e0);
+  --gradient-primary-light: linear-gradient(135deg, #7f53ff, #647dee);
+  --gradient-secondary: linear-gradient(135deg, #2563eb, #7c3aed);
+  --gradient-success: linear-gradient(135deg, #11998e, #38ef7d);
+  --gradient-success-btn: linear-gradient(135deg, #22c55e, #16a34a);
+  --gradient-info: linear-gradient(135deg, #36d1dc, #5b86e5);
+  --gradient-warning: linear-gradient(135deg, #f7971e, #ffd200);
+  --gradient-primary-badge: linear-gradient(135deg, #6c63ff, #2563eb);
+
+  /* Spacing */
+  --spacing-xs: 6px;
+  --spacing-sm: 12px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 25px;
+  --spacing-2xl: 30px;
+  --spacing-3xl: 35px;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 18px;
+  --radius-full: 999px;
+
+  /* Font Family */
+  --font-family: 'Poppins', sans-serif;
+
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-lg: 15px;
+  --font-size-xl: 16px;
+  --font-size-2xl: 18px;
+  --font-size-3xl: 28px;
+
+  /* Box Shadows */
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 15px 35px rgba(0, 0, 0, 0.12);
+  --shadow-2xl: 0 20px 40px rgba(0, 0, 0, 0.2);
+  --shadow-glass: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-fast: 0.25s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

@@ -1,0 +1,101 @@
+/* ===== REGISTER PAGE ===== */
+
+@import '../../shared/styles/utilities.css';
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-secondary), #7c3aed);
+}
+
+.login-card {
+  width: 380px;
+  padding: var(--spacing-3xl);
+  border-radius: var(--radius-2xl);
+  text-align: center;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(240, 247, 253, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-2xl);
+}
+
+.login-card h2 {
+  margin-bottom: 5px;
+  font-size: var(--font-size-2xl);
+  color: var(--color-text);
+}
+
+.login-sub {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-size-base);
+}
+
+/* Role Toggle */
+.role-toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: var(--spacing-lg);
+}
+
+.role-toggle button {
+  flex: 1;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid #0f0e0e;
+  background: #e20c0c;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--color-white);
+  transition: all var(--transition-base);
+}
+
+.role-toggle button:hover {
+  transform: translateY(-2px);
+}
+
+.role-toggle button.active {
+  background: #11e76a;
+  color: var(--color-white);
+  border-color: var(--color-secondary);
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid #ddd;
+  font-size: var(--font-size-base);
+  outline: none;
+  transition: all var(--transition-base);
+}
+
+.login-card input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15);
+}
+
+/* Links */
+.auth-link {
+  margin-top: var(--spacing-md);
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+.auth-link a {
+  color: var(--color-secondary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}

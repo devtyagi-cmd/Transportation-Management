@@ -1,0 +1,57 @@
+/* ===== TOPBAR ===== */
+
+@import '../../shared/styles/variables.css';
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-2xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.topbar h2 {
+  font-size: var(--font-size-2xl);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  color: var(--color-text-secondary);
+}
+
+.top-actions svg {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.top-actions svg:hover {
+  color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid var(--color-primary);
+}
+
+.profile span {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  font-weight: 500;
+}
